@@ -1,0 +1,30 @@
+   34  git commit -m "modificato navbar sul ramo newFeature-Navbar"
+   35  git push origin newfeature-Navbar
+   36  git push origin newFeature-Navbar
+   37  git checkout master
+   38  git add -A
+   39  git git commit -m "modificata navabr sul ramo master"
+   40  git commit -m "modificata navabr sul ramo master"
+   41  git push origin master
+   42  git merge newFeature-Navbar
+   43  git add -A
+   44  git commit -m "merge-conflict"
+   45  git push origin master
+   46  git config --global user.name leonardo
+   47  git config --global user.email pacinileonardo017@gmail.com
+   48  git clone  https://github.com/sena-meucci/progettoStampa.git
+   49  cd progettostampa
+   50  cd progettopStampa
+   51  cd progettoStampa/
+   52  code .
+   53  git add -A
+   54  gt commit -m "inserito nome"
+   55  git commit -m "inserito nome"
+   56  git branch BugFix 
+   57  git checkout BugFix
+   58  git add -A
+   59  git commit -m "errore risolto in stampa"
+   60  git checkout master
+   61  git merge BugFix
+   62  git branch -d BugFix
+   63  history 30 > comandi.txt
