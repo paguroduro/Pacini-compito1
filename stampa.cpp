@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
   int i=10 ,n;
-  cout<<"Quante volte voi stampare la frase? ";
+  cout<<"Quante volte vuoi stampare la frase? ";
   cin>>n;
   while (i<n)
   {
